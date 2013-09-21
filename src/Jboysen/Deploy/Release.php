@@ -86,7 +86,7 @@ class Release
     
     public function getDate()
     {
-        $date = \DateTime::createFromFormat('YmdHis', $this->name);
+        $date = \DateTime::createFromFormat('YmdHis', str_replace('release_', '', $this->name));
         return $date->format('Y-m-d H:i:s');
     }
     
