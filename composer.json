@@ -1,0 +1,29 @@
+{
+    "name": "jboysen/deploy",
+    "keywords": ["laravel"],
+    "description": "",
+    "authors": [
+        {
+            "name": "Jakob Jakobsen Boysen",
+            "email": "jakob@jboysen.dk"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x",
+        "phpseclib/phpseclib": "0.3.5"
+    },
+    "require-dev": {
+        "orchestra/testbench": "2.0.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Jboysen\\Deploy": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

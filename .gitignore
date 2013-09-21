@@ -1,0 +1,6 @@
+#Ignore:
+/vendor
+.DS_Store
+/nbproject
+composer.lock
+
