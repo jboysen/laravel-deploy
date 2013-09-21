@@ -5,7 +5,7 @@ namespace Jboysen\Deploy\Commands;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 
-class DBVersion extends Command
+class Dbversion extends Command
 {
 
     /**
